@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply w-52 h-64 shadow-md rounded-xl flex-none md:mx-auto;
+}
+
+.img-comment-1 {
+  background-image: url("../images/comment1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-comment-2 {
+  background-image: url("../images/comment2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-hero {
+  background-image: url("../images/portada-deskopt.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-comoseven {
+  background-image: url("../images/bg-comoseven.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .img-hero {
+    background-image: url("../images/portada-mobile.jpeg");
+    background-position: center;
+  }
+
+  .img-comoseven {
+    background-image: none;
+  }
+}
